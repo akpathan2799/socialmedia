@@ -62,8 +62,8 @@ function SignUp() {
                     message: "Please enter username",
                   },
                   minLength: {
-                    value: 6,
-                    message: "Username must be at least 6 characters long",
+                    value: 3,
+                    message: "Username must be at least 3 characters long",
                   },
                   pattern: {
                     value: /^[a-zA-Z0-9]+$/,
