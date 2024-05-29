@@ -13,7 +13,7 @@ function Users() {
 
 
   return (
-    <div className='w-full min-h-screen flex justify-start items-start flex-wrap gap-2 p-4'>
+    <div className='w-full min-h-screen flex justify-start items-start gap-2 p-4 max-[500px]:flex-wrap :'>
      {allUserLoading ? (
         <Spinner color='purple' />
       ) : (
